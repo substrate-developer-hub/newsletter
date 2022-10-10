@@ -4,7 +4,7 @@ A place to facilitate content curation for the Substrate Developer Newsletter.
 
 _Note: this repository is WIP, inspired by how This Week in Rust is curated._
 _Currently, the newsletter is written and published without much community involvement._
-_It's author (@sacha-l) wishes to move towards a more participatory system allows involves any developer in the Polkadot ecosystem to contribute to it._
+_It's author (@sacha-l) wishes to move towards a more participatory system that allows any developer in the Polkadot ecosystem to contribute to it._
 _Please submit an issue with any questions, concerns or feedback._
 
 The Substrate Developer Newsletter aims to provide updates for developers in the Polkadot builder ecosystem including:
