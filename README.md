@@ -23,7 +23,7 @@ To propose content for inclusion in the next newsletter (found in the `drafts/` 
 
 Alternately, tweet us @substrate_io.
 
-### ✅ What do we look for when considering whether to include something in Substrate Developer Newsletter?
+### ✅ What do we look for when considering whether to include something in the Substrate Developer Newsletter?
 
 * Community highlights including new pallets, SDKs, or features that could be interesting for other developers to learn about
 * Upcoming events relevant to the Polkadot developer community
