@@ -9,7 +9,7 @@ _Please submit an issue with any questions, concerns or feedback._
 
 The Substrate Developer Newsletter aims to provide updates for developers in the Polkadot builder ecosystem including:
 
-* **Community highlights**: SDKs, tooling or new products built by the community.
+* **Community highlights**: SDKs, tooling or new products or updates from the community.
  
 * **Upcoming events**: in-person or online events, such as Meetups or Hackathons.
  
