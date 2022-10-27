@@ -4,6 +4,12 @@ $title
 ## TL;DR and important announcements
 
 ## 🔦 Community highlights
+
+
+
+[Anagolay](https://anagolay.network/) has built a [Web3 API Auth Token (WAAT) library](https://github.com/kelp-hq/oss/tree/22f85a75887ddcf65fe411e008f9bc7ba2d3203f/tools/web3-api-auth-token) which allows the secure transmission of information between two parties using a base64Url encoded JSON object.
+
+WAAT can be used for for authorization and informational exchange, learn more [here](https://github.com/kelp-hq/oss/tree/22f85a75887ddcf65fe411e008f9bc7ba2d3203f/tools/web3-api-auth-token#why-we-should-use-waat).
  
 ## 📆 Upcoming events
  
