@@ -31,7 +31,7 @@ Alternately, tweet us @substrate_io.
 
 ### ❌ What we are generally NOT looking for
 
-* Promoting a particular project without any relevance for developers
+* Promoting a particular project without any relevance for developers in the Polkadot ecosystem
 * Promoting a specific job opening (we link out to a separate site for this anyways)
 * Anything degrading to another community or existing community member
 
