@@ -7,17 +7,16 @@ $title
 
 
 
-[Anagolay](https://anagolay.network/) has built a [Web3 API Auth Token (WAAT) library](https://github.com/kelp-hq/oss/tree/22f85a75887ddcf65fe411e008f9bc7ba2d3203f/tools/web3-api-auth-token) which allows the secure transmission of information between two parties using a base64Url encoded JSON object.
-
+* [Anagolay](https://anagolay.network/) has built a [Web3 API Auth Token (WAAT) library](https://github.com/kelp-hq/oss/tree/22f85a75887ddcf65fe411e008f9bc7ba2d3203f/tools/web3-api-auth-token) which allows the secure transmission of information between two parties using a base64Url encoded JSON object.
 WAAT can be used for for authorization and informational exchange, learn more [here](https://github.com/kelp-hq/oss/tree/22f85a75887ddcf65fe411e008f9bc7ba2d3203f/tools/web3-api-auth-token#why-we-should-use-waat).
+
+* [Helikon Labs](https://helikon.io) have released the alpha version of [ChainSynth](https://alpha.chainsynth.app), a first step in the creation of a generative audio-visual synthesizer that works with real-time blockchain data. Source code and more information can be found in the project [repository](https://github.com/helikon-labs/chainsynth).
  
 ## 📆 Upcoming events
  
 ## ☕️ Technical updates
 
 ## 👀 Releases
-
-[Helikon Labs](https://helikon.io) have released the alpha version of [ChainSynth](https://alpha.chainsynth.app), a first step in the creation of a generative audio-visual synthesizer that works with real-time blockchain data. Source code and more information can be found in the project [repository](https://github.com/helikon-labs/chainsynth).
 
 ## 📰 Substrate jobs
 
