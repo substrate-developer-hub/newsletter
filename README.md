@@ -2,7 +2,7 @@
 
 A place to facilitate content curation for the Substrate Developer Newsletter. Not yet subscribed? You can subscribe [here](https://substrate.io/ecosystem/connect/newsletter/).
 
-> _Note: this repository is WIP, inspired by how This Week in Rust is curated._
+> _Note: this repository is WIP, inspired by how [This Week in Rust](https://this-week-in-rust.org/) is curated._
 _Currently, the newsletter is written and published without much community involvement._
 _It's author (@sacha-l) wishes to move towards a more participatory system that allows any developer in the Polkadot ecosystem to contribute to it._
 _Please submit an issue with any questions, concerns or feedback._
