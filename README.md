@@ -1,6 +1,6 @@
 # 🗞 The Substrate Developer Newsletter
 
-A place to facilitate content curation for the Substrate Developer Newsletter.
+A place to facilitate content curation for the Substrate Developer Newsletter. Not yet subscribed? You can subscribe [here](https://substrate.io/ecosystem/connect/newsletter/).
 
 > _Note: this repository is WIP, inspired by how This Week in Rust is curated._
 _Currently, the newsletter is written and published without much community involvement._
