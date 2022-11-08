@@ -5,7 +5,7 @@ $title
 
 ## 🔦 Community highlights
 
-* Substrate Seminar will be streaming on Twitch going forward, under the brand new [PolkaDevs channel](https://www.twitch.tv/polkadevs). Subscribe so you can stay updated on new content series in the pipeline. There are also ongoing discussions to rename Seminar to something more general. Please join the discussion [here](https://github.com/substrate-developer-hub/substrate-seminar/discussions/31).
+* Substrate Seminar will be streaming on Twitch going forward, under the brand new [PolkadotDev channel](https://www.twitch.tv/polkadotdev). Subscribe so you can stay updated on new content series in the pipeline. There are also ongoing discussions to rename Seminar to something more general. Please join the discussion [here](https://github.com/substrate-developer-hub/substrate-seminar/discussions/31).
 
 * [Anagolay](https://anagolay.network/) has built a [Web3 API Auth Token (WAAT) library](https://github.com/kelp-hq/oss/tree/22f85a75887ddcf65fe411e008f9bc7ba2d3203f/tools/web3-api-auth-token) which allows the secure transmission of information between two parties using a base64Url encoded JSON object.
 WAAT can be used for for authorization and informational exchange, learn more [here](https://github.com/kelp-hq/oss/tree/22f85a75887ddcf65fe411e008f9bc7ba2d3203f/tools/web3-api-auth-token#why-we-should-use-waat).
