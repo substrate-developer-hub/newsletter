@@ -12,6 +12,7 @@ WAAT can be used for for authorization and informational exchange, learn more [h
 
 * [Helikon Labs](https://helikon.io) have released the alpha version of [ChainSynth](https://alpha.chainsynth.app), a first step in the creation of a generative audio-visual synthesizer that works with real-time blockchain data. Source code and more information can be found in the project [repository](https://github.com/helikon-labs/chainsynth).
  
+ * Check out last month's updates from [ink!](https://use.ink/monthly-update/2022/10)
 ## 📆 Upcoming events
 
 * Zero Knowledge Validator will host a session on Privacy on Moonbeam December 14th (RSVP [here](https://hopin.com/events/privacy-on-moonbeam-311978ec-1ac3-4f44-9e57-86c3c3712f3b)).
