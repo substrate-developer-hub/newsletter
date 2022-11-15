@@ -4,5 +4,5 @@ relative_links:
   enabled: true
   collections: true
 include:
+  - index.md
   - README.md
-  - content/2022-11-substrate-newsletter.md
