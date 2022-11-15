@@ -43,7 +43,7 @@ There are ongoing discussions to rename Substrate Seminar to something more gene
 ### FRAME
 
 * A new [signed extension](https://docs.substrate.io/reference/transaction-format/#signed-extensions) was added to the [Sudo pallet](https://paritytech.github.io/substrate/master/pallet_sudo/index.html) called `CheckOnlySudoAccount`. It ensures that only transactions signed by the sudo account are accepted by the transaction pool – useful for chains going live that want to avoid transaction spamming ([#12496](https://github.com/paritytech/substrate/pull/12496)).
-* A new defensive trait has been added to `frame_support` called `DefensiveTruncateFrom`. It truncates a vec so that it satisfies the bound when passed into a BoundeVec ([#12515](https://github.com/paritytech/substrate/pull/12515)).
+* A new defensive trait has been added to `frame_support` called `DefensiveTruncateFrom`. It truncates a vec so that it satisfies the bound when passed into a `BoundedVec` ([#12515](https://github.com/paritytech/substrate/pull/12515)).
 * A new attribute was added to the pallet macro which enables developers to compile pallets in dev mode. When specified in a pallet using `#[pallet(dev_mode)]`, the macro sets weights to 0 if they aren’t specified and automatically sets a default `MaxEncodedLen` if it isn’t already set. Please note that this feature is meant for development only, production code will not compile with this attribute. This provides a major improvement for the FRAME developer experience ([#12536](https://github.com/paritytech/substrate/pull/12536)).
 
 ### Substrate Node
