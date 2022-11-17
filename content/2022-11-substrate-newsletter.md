@@ -13,7 +13,7 @@ _“You never change things by fighting the existing reality. To change somethin
 ## 🔦 Community highlights
 
 * Substrate Seminar will be streaming on Twitch going forward, on the brand new [PolkadotDev channel](https://www.twitch.tv/polkadotdev) (still in beta for now). Subscribe to stay updated on all the great content we have in the pipeline. You can also easily add all the upcoming seminars to your calendar by subscribing to the [Seminar calendar](https://calendar.google.com/calendar/u/0?cid=Y192cXBsamk3cXY2ajBvcDVrbmdwMGR0cjUzc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
-There are ongoing discussions to rename Substrate Seminar to something more general. Please join the discussion here.
+There are ongoing discussions to rename Substrate Seminar to something more general. Please join the discussion [here](https://github.com/substrate-developer-hub/substrate-seminar/discussions).
 
 * [Anagolay](https://anagolay.network/) has built a [Web3 API Auth Token (WAAT) library](https://github.com/kelp-hq/oss/tree/22f85a75887ddcf65fe411e008f9bc7ba2d3203f/tools/web3-api-auth-token) that can be used for authorising user interactions with dApps or wallets, as well as for verifying data integrity in information exchange. Learn more [here](https://github.com/kelp-hq/oss/tree/22f85a75887ddcf65fe411e008f9bc7ba2d3203f/tools/web3-api-auth-token#why-we-should-use-waat).
 
