@@ -20,9 +20,10 @@ The Substrate Developer Newsletter aims to provide updates for developers in the
 
 ## 📭 PRs for next issue are now being accepted
 
-To propose content for inclusion in the next newsletter (found in the `drafts/` folder), create a new Pull Request updating the relevant section in the draft.
+To propose content for inclusion in the next newsletter (found in the `drafts/` folder), create a new Pull Request updating the relevant section in the draft. 
+Alternatively, tweet us [@substrate_io](https://twitter.com/substrate_io).
 
-Alternately, tweet us @substrate_io.
+**Make sure to have your PRs in before the 10th of each month.**
 
 ### ✅ What do we look for when considering whether to include something in the Substrate Developer Newsletter?
 
