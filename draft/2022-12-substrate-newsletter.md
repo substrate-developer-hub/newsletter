@@ -5,6 +5,8 @@ $title
 
 ## 🔦 Community highlights
  
+* OpenZepplin will audit ink! and the Contract pallet. The ink! team and various Parachains are also working on a bounty proposal to kick off ink!ubator, a builder + auditor program to support companies building with ink! and to foster a Smart Contract auditing market. Part of the funding will also be used to develop open source audited smart contract templates and a React hooks library to make full stack development more ergonomic and fun. Join the conversation in the [ink! Element channel](https://matrix.to/#/!vvBpQdXROGzuQNhjEN:matrix.parity.io?via=matrix.parity.io) and read the [November ink! newsletter](https://use.ink/monthly-update/2022/11) for more updates.
+
 ## 📆 Upcoming events
  
 ## ☕️ Technical updates
