@@ -36,7 +36,7 @@ While we wait for the recordings of the sub0 talks to be released, make sure to 
     * [Transfer Assets with XCM](https://docs.substrate.io/tutorials/connect-relay-and-parachains/transfer-assets-with-xcm/) (tutorial)
     * [Open message passing channels](https://docs.substrate.io/tutorials/connect-relay-and-parachains/open-message-passing-channels/) (tutorial)
     * [Cross-consensus communication](https://docs.substrate.io/fundamentals/xcm-communication/) (doc)
-* [Demystifying FRAME Macro Magic | Substrate Seminar (watch the full livestream)](https://www.youtube.com/watch?v=aEWbZxNCH0A)
+* [Demystifying FRAME Macro Magic - Substrate Seminar](https://www.youtube.com/watch?v=aEWbZxNCH0A) (watch the full livestream)
 
 If there’s anything you’d like to hear or learn about on Substrate Seminar, please [propose or request a topic](https://github.com/substrate-developer-hub/substrate-seminar/issues/new/choose), as we’re working on updating our calendar for the new year.
 
