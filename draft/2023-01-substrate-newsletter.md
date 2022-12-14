@@ -1,6 +1,3 @@
-$edition
-$title
-
 ## TL;DR and important announcements
 
 ## 🔦 Community highlights
