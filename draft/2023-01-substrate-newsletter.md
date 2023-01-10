@@ -1,10 +1,14 @@
 ## TL;DR and important announcements
 
 ## 🔦 Community highlights
+
+Astar introduces a [Starmap](https://astar.network/starmap/) along with their new website to follow 2023 developer updates. Read [Astar's 2022 Recap + Building into 2023](https://medium.com/astar-network/welcome-to-the-future-f69f1324af1c) for all major upcoming updates.
  
 ## 📆 Upcoming events
  
 ## ☕️ Technical updates
+
+**Astar’s XVM SDK Public Testnet is live!** The dev team explains the code, [here](https://medium.com/astar-network/cross-virtual-machine-creating-a-portal-to-the-future-of-smart-contracts-a96c6d2f79b8). Create an ink! smart contract that controls ERC20, ERC721, and more assets with [Ink! XVM SDK](https://github.com/AstarNetwork/ink-xvm-sdk).
 
 ## 👀 Releases
 
