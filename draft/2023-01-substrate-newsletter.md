@@ -2,9 +2,7 @@
 
 ## 🔦 Community highlights
 
-Astar launches a [**new website**](https://medium.com/astar-network/astar-2023-a-new-website-and-starmap-8f97dc9c0f1c) and introduces a Starmap to follow 2023 developer updates. The website is now focused on Community, Developers, and Japan initiatives!
-
-Read [Astar's 2022 Recap + Building into 2023](https://medium.com/astar-network/welcome-to-the-future-f69f1324af1c) for all major updates.
+Astar introduces a [Starmap](https://astar.network/starmap/) along with their new website to follow 2023 developer updates. Read [Astar's 2022 Recap + Building into 2023](https://medium.com/astar-network/welcome-to-the-future-f69f1324af1c) for all major upcoming updates.
  
 ## 📆 Upcoming events
  
