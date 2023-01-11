@@ -60,7 +60,7 @@ Some new learning material is out, with the launch of Polkadot Deep Dives and ot
 * Looking to make a treasury proposal but not sure where to start? Check out [this guide](https://forum.polkadot.network/t/order-out-of-chaos-a-guide-to-opengov-treasury-proposals/1618/1) in the Polkadot forum that provides clear guidelines for structuring a proposal.
 * Create an ink! smart contract that controls ERC20, ERC721, and more assets with [ink! XVM SDK](https://github.com/AstarNetwork/ink-xvm-sdk).
 * Principal Developer Relations Engineer at Parity, Kirk Haines shares how to approach a sorting algorithm programming problem in Rust. Learn with him in [this blog post](https://wyhaines.io/peeking-into-rust): “Peeking into Rust”.
-Dive into a two part blog post ([part 1](https://www.bengreenberg.dev/posts/2022-12-30-high-level-to-rust-part-1/) and [part 2](https://www.bengreenberg.dev/posts/2023-01-02-high-level-to-rust-part-2/)) on a practical guide to Rust programming by Ben Greenberg, Senior Developer Relations Engineer at Parity.
+* Dive into a two part blog post ([part 1](https://www.bengreenberg.dev/posts/2022-12-30-high-level-to-rust-part-1/) and [part 2](https://www.bengreenberg.dev/posts/2023-01-02-high-level-to-rust-part-2/)) on a practical guide to Rust programming by Ben Greenberg, Senior Developer Relations Engineer at Parity.
 * Learn what this month’s hottest questions are on the [Substrate and Polkadot stack exchange](https://substrate.stackexchange.com/?tab=month).
 
 _As always, a reminder to [propose or request a topic](https://github.com/substrate-developer-hub/substrate-seminar/issues/new/choose) you’d like to see on Substrate Seminar.📺_
