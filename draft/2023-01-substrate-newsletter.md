@@ -19,6 +19,8 @@ Videos from DOTBrno [are going to be released periodically.](https://twitter.com
 
 [Polkaholic](https://polkaholic.io/) is leading [an initiative](https://forum.polkadot.network/t/xcm-global-asset-registry-gar-call-for-contributors/1470) for builders to contribute to a global asset registry, solving the problem of having a multitude of different local representations of assets among parachains. If you’re a parachain developer, submit a PR to [this repo](https://github.com/colorfulnotion/xcm-global-registry) to help curate the registry. 
 
+Dotinsights publishes a Polkadot [5-year in review thread](https://twitter.com/dotinsights_xyz/status/1610620555467853825) to summarize the accomplishments of the Polkadot & Kusama ecosystem from 2018-2022. In addition, Dotinsights x SubWallet also compile a Polkadot 2022 Wrap-up [Youtube playlist](https://bit.ly/dotinsights_polkadotwrapup2022) where 23 key leaders in the ecosystem share about their 2022 and their plans for 2023. Tune in now!
+
 [SubWork](https://subwork.xyz/), a co-working space for Substrate builders on the foothills of the Julian Alps in Bled, Slovenia is officially open!
 
 **Ecosystem builders**
