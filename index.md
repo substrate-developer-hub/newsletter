@@ -11,6 +11,7 @@ Not yet subscribed? Subscribe [here](https://substrate.io/ecosystem/connect/news
 
 | Date | Subject line |
 | ------ | ----- |
+| 13 JAN 2023 | [New learning material 📚, Polkadot Hackathon Announced 🏗️, Sub0 videos published 📺](/content/2023-01-substrate-newsletter.md) |
 | 13 DEC 2022 | [sub0 recap ⏪, Polkadot & Kusama Ecosystem Map Released 🗺️](/content/2022-12-substrate-newsletter.md) |
 | 14 NOV 2022 | [Register for edX courses on Web3, blockchain, and Polkadot, 🧑‍🎓 Discover Substrate news and resources 💻 ](/content/2022-11-substrate-newsletter.md) |
 | 12 OCT 2022 | [Last day to register for sub0 📝, Polkadot Fellowship Manifesto released 📘](/content/2022-10-substrate-newsletter.md) |
