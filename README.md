@@ -1,12 +1,6 @@
 # 🗞 The Substrate Developer Newsletter
 
-A place to facilitate content curation for the Substrate Developer Newsletter. Not yet subscribed? You can subscribe [here](https://substrate.io/ecosystem/connect/newsletter/).
-Curious to have a look at past editions? Have a look at the archive [here](https://substrate-developer-hub.github.io/newsletter/).
-
-> _Note: this repository is WIP, inspired by how [This Week in Rust](https://this-week-in-rust.org/) is curated._
-_Currently, the newsletter is written and published without much community involvement._
-_It's author (@sacha-l) wishes to move towards a more participatory system that allows any developer in the Polkadot ecosystem to contribute to it._
-_Please submit an issue with any questions, concerns or feedback._
+A place to facilitate content curation for the Substrate Developer Newsletter: a monthly digest for developers building with [Substrate](https://substrate.io/) with +2k subscribers and growing.
 
 The Substrate Developer Newsletter aims to provide updates for developers in the Polkadot builder ecosystem including:
 
@@ -17,6 +11,12 @@ The Substrate Developer Newsletter aims to provide updates for developers in the
 * **Technical updates**: notable updates in the Substrate and Polkadot codebases.
 
 * **Releases**: notes on new Polkadot releases and tooling maintained by Parity.
+
+Not yet subscribed? You can subscribe [here](https://substrate.io/ecosystem/connect/newsletter/).
+Curious to have a look at past editions? [Have a look at the archive here](https://substrate-developer-hub.github.io/newsletter/).
+
+> _Note: this repository is inspired by how [This Week in Rust](https://this-week-in-rust.org/) is curated._
+_As we move towards this more participatory contribution system, please [submit an issue](https://github.com/substrate-developer-hub/newsletter/issues) if you have any questions or feedback._
 
 ## 📭 PRs for next issue are now being accepted
 
