@@ -2,6 +2,8 @@
 
 * If you miss the Polkadot Deep Dive Report Q4 2022 by Dotinsights & SubWallet, treat yourself to a read [here](https://dotinsights.subwallet.app/polkadot-report-q4-2022-en/).
 
+Astar has opened the web3 Hackathon sponsored by Toyota! Polkadot is also officially supporting this event. Nearly 300 applicants have joined in the first week! Join the hackathon at: https://key3.co.jp/key3hackathon/en/.
+
 ## 🔦 Community highlights
 
 * Tune in to hear 23 leaders from key projects in Polkadot & Kusama share about their 2022 and their plans for 2023 in the Polkadot 2022 Wrap-up [Youtube Playlist](https://bit.ly/dotinsights_polkadotwrapup2022) by Dotinsights & SubWallet.
@@ -11,6 +13,8 @@
 ## 📆 Upcoming events
  
 ## ☕️ Technical updates
+
+Astar releases its cross-virtual machine [(XVM) on public testnet](https://medium.com/astar-network/cross-virtual-machine-creating-a-portal-to-the-future-of-smart-contracts-a96c6d2f79b8)
 
 ## 👀 Releases
 
