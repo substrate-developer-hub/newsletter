@@ -14,8 +14,6 @@ Astar has opened the web3 Hackathon sponsored by Toyota! Polkadot is also offici
  
 ## ☕️ Technical updates
 
-Astar releases its cross-virtual machine [(XVM) on public testnet](https://medium.com/astar-network/cross-virtual-machine-creating-a-portal-to-the-future-of-smart-contracts-a96c6d2f79b8)
-
 ## 👀 Releases
 
 ## 📰 Substrate jobs
