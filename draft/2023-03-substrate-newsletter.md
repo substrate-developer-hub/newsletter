@@ -6,6 +6,10 @@
  
 ## ☕️ Technical updates
 
+Join Astar Network’s upcoming Crowdcast for [Astar Tech Talk #007](https://twitter.com/AstarNetwork/status/1632214374990630917), creating Wasm dApps using necessary UI tools such as typescript and contract Ink! code.
+
+Learn how to use [Astar.js](https://twitter.com/AstarNetwork/status/1620487582634364928)–a powerful dev tool to build dApps on Astar Network.
+
 ## 👀 Releases
 
 ## 📰 Substrate jobs
