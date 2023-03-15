@@ -1,9 +1,11 @@
 ## ⭐TL;DR and important announcements
+- Don't know where to start with ink!? Check out this ink! 101 [thread]([url](https://twitter.com/dotinsights_xyz/status/1635594705357660161)) by SubWallet & Dotinsights.
 
 ## 🔦 Community highlights
+- Learn the latest on Aleph Zero through the [101 thread]([url](https://twitter.com/dotinsights_xyz/status/1630886296108556289)) by SubWallet & Dotinsights.
  
 ## 📆 Upcoming events
- 
+ - Make sure you tune in to SubWallet & Dotinsights' [Twitter Space]([url](https://twitter.com/dotinsights_xyz/status/1635293893205065730)) on ink! 4.0 and WASM Smart Contracts Bounty at 2PM UTC on March 16! Featuring speakers from Parity, Astar Network, Aleph Zero, Brushfam and ArtZero.
 ## ☕️ Technical updates
 
 Join Astar Network’s upcoming Crowdcast for [Astar Tech Talk #007](https://twitter.com/AstarNetwork/status/1632214374990630917), creating Wasm dApps using necessary UI tools such as typescript and contract Ink! code.
