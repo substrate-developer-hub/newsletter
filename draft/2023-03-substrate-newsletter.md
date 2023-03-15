@@ -36,7 +36,31 @@ The updates highlighted below are PRs that have been merged into Substrate which
 
 * **<span style="text-decoration:underline;">[NFTs] Offchain mint #13158</span>**: This PR adds a new way of minting NFTs with pre-signed data. As the collection's owner, you can per-sign a mint data and pass the signature to the end-user, who would submit it on-chain. The item's mint and metadata/attributes deposits will be taken from the end user. In the mint data, it's possible to set the metadata and attributes for the item, set the deadline for signature and whitelist the origin.
 
-## 👀 Releases
+
+## **👀 Releases**
+
+Go to [Polkadiff](https://polkadiff.parity.io/) for a full list of merged PRs into Substrate and Polkadot since the last Polkadot release and be sure to read the last Polkadot Release Analysis reports [on the Polkadot forum](https://forum.polkadot.network/tag/release-analysis). In this section, we go over updates to various core tools developed by Parity for the ecosystem.
+
+
+### **Subxt ([v0.27.1](https://github.com/paritytech/subxt/releases/tag/v0.27.1)) 📫**
+
+_A Rust library to submit extrinsics (transactions) to a Substrate node via RPC._
+
+Notable updates includes adding find_last for block types events.
+
+
+### **Sidecar ([v14.5.0](https://github.com/paritytech/substrate-api-sidecar/releases/tag/v14.5.0)) 🚗**
+
+_Sidecar is a REST service that makes it easy to interact with blockchain nodes built using Substrate's FRAME framework._
+
+Notable features added in this release include adding endpoints for pallets/dispatchables and pallets/consts.
+
+
+### **Zombienet ([v1.3.4](https://github.com/paritytech/zombienet/releases/tag/v1.3.40)) 🧟**
+
+_Currently under active development, Zombienet is a CLI tool to easily spawn ephemeral parachain networks and perform tests against them._
+
+Make sure to update to this latest version if you want to use the newest features.
 
 ## 📰 Substrate jobs
 
