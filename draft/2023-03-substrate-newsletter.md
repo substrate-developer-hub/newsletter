@@ -3,6 +3,8 @@
 
 ## 🔦 Community highlights
 - Learn the latest on Aleph Zero through the [101 thread]([url](https://twitter.com/dotinsights_xyz/status/1630886296108556289)) by SubWallet & Dotinsights.
+- Please take a second to fill out [this survey](https://forms.gle/UXmM6XnoDSQxKK8L8) to help improve our documentation portal.
+- Recently published: [Polkadot Staking Review: Impressive Stats, What’s New & What’s Coming](https://polkadot.network/blog/polkadot-staking-review-impressive-stats-whats-new-whats-coming).
  
 ## 📆 Upcoming events
  - Make sure you tune in to SubWallet & Dotinsights' [Twitter Space](https://twitter.com/dotinsights_xyz/status/1635293893205065730) on ink! 4.0 and WASM Smart Contracts Bounty at 2PM UTC on March 16! Featuring speakers from Parity, Astar Network, Aleph Zero, Brushfam and ArtZero.
