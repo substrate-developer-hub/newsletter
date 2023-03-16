@@ -5,10 +5,11 @@
 ## 🔦 Community highlights
 
 - Learn the latest on Aleph Zero through the [101 thread](https://twitter.com/dotinsights_xyz/status/1630886296108556289) by SubWallet & Dotinsights.
-- Recently published: [Polkadot Staking Review: Impressive Stats, What’s New & What’s Coming](https://polkadot.network/blog/polkadot-staking-review-impressive-stats-whats-new-whats-coming).
+- Recently published: [Polkadot Staking Review: Impressive Stats, What’s New & What’s Coming](https://polkadot.network/blog/polkadot-staking-review-impressive-stats-whats-new-whats-coming)
 - Make sure to check out the [latest Deep Dives](https://www.youtube.com/watch?v=7DZwVXzi9x0&list=PLOyWqupZ-WGsfnlpkk0KWX3uS4yg6ZztG) covering everything you need to know about launching a parachain.
 - Learn about developing a dapp in ink! 4.0 using Brushfam in the [latest Substrate Seminar](https://www.youtube.com/watch?v=lCToPcLCQgQ&list=PLOyWqupZ-WGsfgxkwTdMOwnbRW4nx_T-i&index=3) 
 * Read [this blog](https://polkaworld.medium.com/xcm-v3-is-coming-soon-what-new-possibilities-will-it-bring-to-polkadot-ecosystem-c4ed740b1fff) post to learn about what new possibilities XCM v3 can bring to the ecosystem 
+* Catch Shawn Tabrizi's talk at ETHDenver 2023 on [What is Shared Security?](https://www.youtube.com/watch?v=uKQOSPfM-W0)
 
 ## 📆 Upcoming events
  - Make sure you tune in to SubWallet & Dotinsights' [Twitter Space](https://twitter.com/dotinsights_xyz/status/1635293893205065730) on ink! 4.0 and WASM Smart Contracts Bounty at 2PM UTC on March 16! Featuring speakers from Parity, Astar Network, Aleph Zero, Brushfam and ArtZero.
