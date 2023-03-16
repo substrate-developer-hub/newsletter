@@ -1,17 +1,21 @@
 ## ⭐TL;DR and important announcements
-- Don't know where to start with ink!? Check out this ink! 101 [thread]([url](https://twitter.com/dotinsights_xyz/status/1635594705357660161)) by SubWallet & Dotinsights.
+- Don't know where to start with ink!? Check out this [ink! 101 thread](https://twitter.com/dotinsights_xyz/status/1635594705357660161) by SubWallet & Dotinsights.
+- Please take a second to fill out [this survey](https://forms.gle/UXmM6XnoDSQxKK8L8) to help improve our documentation portal.
 
 ## 🔦 Community highlights
-- Learn the latest on Aleph Zero through the [101 thread]([url](https://twitter.com/dotinsights_xyz/status/1630886296108556289)) by SubWallet & Dotinsights.
-- Please take a second to fill out [this survey](https://forms.gle/UXmM6XnoDSQxKK8L8) to help improve our documentation portal.
+
+- Learn the latest on Aleph Zero through the [101 thread](https://twitter.com/dotinsights_xyz/status/1630886296108556289) by SubWallet & Dotinsights.
 - Recently published: [Polkadot Staking Review: Impressive Stats, What’s New & What’s Coming](https://polkadot.network/blog/polkadot-staking-review-impressive-stats-whats-new-whats-coming).
- 
+- Make sure to check out the [latest Deep Dives](https://www.youtube.com/watch?v=7DZwVXzi9x0&list=PLOyWqupZ-WGsfnlpkk0KWX3uS4yg6ZztG) covering everything you need to know about launching a parachain.
+- Learn about developing a dapp in ink! 4.0 using Brushfam in the [latest Substrate Seminar](https://www.youtube.com/watch?v=lCToPcLCQgQ&list=PLOyWqupZ-WGsfgxkwTdMOwnbRW4nx_T-i&index=3) 
+* Read [this blog](https://polkaworld.medium.com/xcm-v3-is-coming-soon-what-new-possibilities-will-it-bring-to-polkadot-ecosystem-c4ed740b1fff) post to learn about what new possibilities XCM v3 can bring to the ecosystem 
+
 ## 📆 Upcoming events
  - Make sure you tune in to SubWallet & Dotinsights' [Twitter Space](https://twitter.com/dotinsights_xyz/status/1635293893205065730) on ink! 4.0 and WASM Smart Contracts Bounty at 2PM UTC on March 16! Featuring speakers from Parity, Astar Network, Aleph Zero, Brushfam and ArtZero.
  - DotSocial (Paris): in conjunction with Paris Blockchain week, dotSocial Paris will be held at Pan Piper on 22nd March, 2023. Rsvp [here](https://www.eventbrite.com/e/dotsocial-paris-tickets-516475230317).
  - DotSafari (Kenya, March 30 - April 1st): a bootcamp, hackathon and conference organized by SafariDAO. More details on [their website](https://dotsafari.xyz/).
- - ink! Berlin Community Meetup (March 30th) hosted by Parity Technologies & Scio Labs. Rsvp [here](https://www.meetup.com/parity/events/292157078/).
- 
+ - ink! Berlin Community Meetup (Berlin, March 30th) hosted by Parity Technologies & Scio Labs. Rsvp [here](https://www.meetup.com/parity/events/292157078/).
+
 ## ☕️ Technical updates
 
 ### From parachain teams
