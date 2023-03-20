@@ -11,6 +11,9 @@
 * Read [this blog](https://polkaworld.medium.com/xcm-v3-is-coming-soon-what-new-possibilities-will-it-bring-to-polkadot-ecosystem-c4ed740b1fff) post to learn about what new possibilities XCM v3 can bring to the ecosystem 
 * Catch Shawn Tabrizi's talk at ETHDenver 2023 on [What is Shared Security?](https://www.youtube.com/watch?v=uKQOSPfM-W0)
 
+**Learning**
+ - Read a [blog post](https://brightinventions.pl/blog/zk-snarks-in-substrate-part-1/) about ZK-Snarks in Substrate.
+
 ## 📆 Upcoming events
  - Make sure you tune in to SubWallet & Dotinsights' [Twitter Space](https://twitter.com/dotinsights_xyz/status/1635293893205065730) on ink! 4.0 and WASM Smart Contracts Bounty at 2PM UTC on March 16! Featuring speakers from Parity, Astar Network, Aleph Zero, Brushfam and ArtZero.
  - DotSocial (Paris): in conjunction with Paris Blockchain week, dotSocial Paris will be held at Pan Piper on 22nd March, 2023. Rsvp [here](https://www.eventbrite.com/e/dotsocial-paris-tickets-516475230317).
