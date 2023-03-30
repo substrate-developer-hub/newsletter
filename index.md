@@ -11,6 +11,7 @@ Not yet subscribed? Subscribe [here](https://substrate.io/ecosystem/connect/news
 
 | Date | Subject line |
 | ------ | ----- |
+| 30 MAR 2023 | [ETHDenver Talks Published 📺, Learn ink! 4.0 tools  🦑, FRAME pallet highlights 🖼](/content/2023-03-substrate-newsletter.md) |
 | 16 FEB 2023 | [Notable updates for FRAME devs 🖼, New Deep Dives released 🤿, Calling builders to apply to RFPs and bounties ⚡️](/content/2023-02-substrate-newsletter.md) |
 | 13 JAN 2023 | [New learning material 📚, Polkadot Hackathon Announced 🏗️, sub0 videos published 📺](/content/2023-01-substrate-newsletter.md) |
 | 13 DEC 2022 | [sub0 recap ⏪, Polkadot & Kusama Ecosystem Map Released 🗺️](/content/2022-12-substrate-newsletter.md) |

@@ -21,7 +21,6 @@ Don’t forget, the newsletter is open to community contributions, so if there�
 
 ## 🔦 Community highlights
 
-
 **Learn about what’s being built and discover new educational material from the Substrate and Polkadot community. Working on something you’d like to share here? This newsletter is [open for contributions](https://github.com/substrate-developer-hub/newsletter#-prs-for-next-issue-are-now-being-accepted) – make a PR to the next edition of the newsletter.**
 
 - Learn the latest on Aleph Zero in this 101 thread by SubWallet & Dotinsights
@@ -32,6 +31,7 @@ Don’t forget, the newsletter is open to community contributions, so if there�
 - Learn about Astar.js - the UI developer tool for Wasm contract developers – [in this Twitter thread](https://twitter.com/AstarNetwork/status/1620487582634364928).
 
 ## 🎓 Learning
+
  - Read a [blog post](https://brightinventions.pl/blog/zk-snarks-in-substrate-part-1/) about ZK-Snarks in Substrate.
  - Make sure to check out the [latest Deep Dives](https://www.youtube.com/watch?v=7DZwVXzi9x0&list=PLOyWqupZ-WGsfnlpkk0KWX3uS4yg6ZztG) covering everything you need to know about launching a parachain.
 - Learn about developing a dapp in ink! 4.0 using Brushfam in the [latest Substrate Seminar](https://www.youtube.com/watch?v=lCToPcLCQgQ&list=PLOyWqupZ-WGsfgxkwTdMOwnbRW4nx_T-i&index=3). 
