@@ -2,7 +2,7 @@
 
 Welcome to the March edition of the Substrate developer newsletter - the best place to discover the latest news from the Substrate and Polkadot community. We cover everything, from upcoming events and newly released learning material to technical updates for developers building with Substrate and FRAME. 
 
-Don’t forget, the newsletter is open to community contributions, so if there’s any news you’d like to see featured, don’t hesitate: make a PR to the next edition here.
+Don’t forget, the newsletter is open to community contributions, so if there’s any news you’d like to see featured, don’t hesitate: make a PR to the next edition [here](https://github.com/substrate-developer-hub/newsletter/pulls).
 
 ## ⭐TL;DR and important announcements
 
