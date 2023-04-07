@@ -4,8 +4,14 @@
 
 ## 🔦 Community highlights
 
+<img src="https://use.ink/img/twitter/inkubator-twitter.png" />
+
+### ink!ubator launched this month!
+
+* ink!ubator is an initiative funded by the Polkadot Treasury's Bounty Program. It is designed to kickstart the ink! ecosystem  in the areas of developer growth, security audits, infrastructure, and high profile product launches. It offers grants, technical support from core developers, contract security audits, and much more. You can [apply to ink!ubator here](https://use.ink/ubator/) and follow updates on [Twitter](https://twitter.com/ink_lang).
+
 ## 🎓 Learning
- 
+
 ## ☕️ Technical updates
 
 ## 👀 Releases
