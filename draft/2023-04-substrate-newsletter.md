@@ -1,10 +1,16 @@
 ## ⭐TL;DR and important announcements
 
+- Data collected by SubWallet & Dotinsights showed that Polkadot nomination pools [surpassed 3M DOT](https://twitter.com/dotinsights_xyz/status/1643240360578281472) in total stake with 8K+ pool members, and Web3 Foundation Grants Program achieved [the 500 project milestone](https://twitter.com/dotinsights_xyz/status/1644281591727022080) by the end of Q1 2023.
+
 ## 📆 Upcoming events
+
+- Catch all the latest updates including enhanced UX & UI on SubWallet Extension in SubWallet's upcoming [Community Call](https://twitter.com/subwalletapp/status/1646833668902756353).
 
 ## 🔦 Community highlights
 
 <img src="https://use.ink/img/twitter/inkubator-twitter.png" />
+
+- Co-organized by Parity & SubWallet as part of DOTinVietnam event series with the participation of Moonbeam, Litentry, ArtZero, Gafi Network, MoonFit, StellaSwap, InvArch & Polkadot Insider, Beyond The Chain Vietnam 2023 has concluded successfully with 100+ builders & developers attending to learn Polkadot & Substrate. Check out the [highlight thread](https://twitter.com/dotinvietnam/status/1645351053116964864) & [highlight video](https://www.youtube.com/watch?v=kEm42m8vDJs). 
 
 ### ink!ubator launched this month!
 
