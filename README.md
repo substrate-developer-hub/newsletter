@@ -23,12 +23,14 @@ _As we move towards this more participatory contribution system, please [submit 
 To propose content for inclusion in the next newsletter (found in the `drafts/` folder), create a new Pull Request updating the relevant section in the draft. 
 Alternatively, tweet us [@substrate_io](https://twitter.com/substrate_io).
 
-**Make sure to have your PRs in before the 10th of each month.**
+**Make sure to have your PRs in before the 26th of each month.**
 
 ### ✅ What do we look for when considering whether to include something in the Substrate Developer Newsletter?
 
-* Community highlights including new pallets, SDKs, or features that could be interesting for other developers to learn about
-* Upcoming events relevant to the Polkadot developer community
+* Community highlights including new pallets, SDKs, or libraries that could be interesting for other developers to learn about
+* Upcoming events relevant to the Substrate and Polkadot developer community
+* Learning material relevant to the Substrate and Polkadot developer community
+* Developer blogs relevant to the Substrate and Polkadot developer community
 * Mentions of PRs that are worthy of being included in the "Technical Updates" section
 
 ### ❌ What we are generally NOT looking for
