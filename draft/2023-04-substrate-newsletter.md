@@ -4,8 +4,6 @@
 
 ## 📆 Upcoming events
 
-- Catch all the latest updates including enhanced UX & UI on SubWallet Extension in SubWallet's upcoming [Community Call](https://twitter.com/subwalletapp/status/1646833668902756353).
-
 ## 🔦 Community highlights
 
 <img src="https://use.ink/img/twitter/inkubator-twitter.png" />
