@@ -6,13 +6,19 @@
 
 ## 🔦 Community highlights
 
-<img src="https://use.ink/img/twitter/inkubator-twitter.png" />
-
 - Co-organized by Parity & SubWallet as part of DOTinVietnam event series with the participation of Moonbeam, Litentry, ArtZero, Gafi Network, MoonFit, StellaSwap, InvArch & Polkadot Insider, Beyond The Chain Vietnam 2023 has concluded successfully with 100+ builders & developers attending to learn Polkadot & Substrate. Check out the [highlight thread](https://twitter.com/dotinvietnam/status/1645351053116964864) & [highlight video](https://www.youtube.com/watch?v=kEm42m8vDJs). 
 
 ### ink!ubator launched this month!
 
+<img src="https://use.ink/img/twitter/inkubator-twitter.png" />
+
 * ink!ubator is an initiative funded by the Polkadot Treasury's Bounty Program. It is designed to kickstart the ink! ecosystem  in the areas of developer growth, security audits, infrastructure, and high profile product launches. It offers grants, technical support from core developers, contract security audits, and much more. You can [apply to ink!ubator here](https://use.ink/ubator/) and follow updates on [Twitter](https://twitter.com/ink_lang).
+
+### Blogs
+
+* [XCM v3: Breaking New Ground for Web3 Interoperability](https://polkadot.network/blog/xcm-v3-breaking-new-ground-for-web3-interoperability/)
+* [Polkadot Update: Q1 2023](https://polkadot.network/blog/polkadot-update-q1-2023/)
+
 
 ## 🎓 Learning
 
