@@ -4,6 +4,11 @@
 
 ## 📆 Upcoming events
 
+- May 8-11: [Blockchain Week Rome](https://blockchainweekrome.com/polkadot-sponsor/) (ambassador-organised Polkadot side event)
+- May 5: [Polkadot Bogotá Meetup](https://www.meetup.com/polkadot-and-kusama-bogota/events/292634750)
+- May 11: [Polkadot Budapest Meetup](https://www.meetup.com/polkadot-hungary/events/292958136)
+- May 17: [Polkadot Prague Meetup](https://www.meetup.com/polkadot-and-kusama-prague/events/293027585/)
+
 ## 🔦 Community highlights
 
 - Co-organized by Parity & SubWallet as part of DOTinVietnam event series with the participation of Moonbeam, Litentry, ArtZero, Gafi Network, MoonFit, StellaSwap, InvArch & Polkadot Insider, Beyond The Chain Vietnam 2023 has concluded successfully with 100+ builders & developers attending to learn Polkadot & Substrate. Check out the [highlight thread](https://twitter.com/dotinvietnam/status/1645351053116964864) & [highlight video](https://www.youtube.com/watch?v=kEm42m8vDJs). 
