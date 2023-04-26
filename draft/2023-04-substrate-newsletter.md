@@ -1,3 +1,8 @@
+# April updates for Substrate and Polkadot devs ⚪️
+
+Welcome to the April edition of the Substrate developer newsletter - the best place to discover the latest news from the Substrate and Polkadot community. We cover everything, from upcoming events and newly released learning material to technical updates for developers building with Substrate and FRAME. 
+
+Don’t forget, the newsletter is open to community contributions, so if there’s any news you’d like to see featured, don’t hesitate: make a PR to the next edition [here](https://github.com/substrate-developer-hub/newsletter/pulls).
 ## ⭐TL;DR and important announcements
 
 - Data collected by SubWallet & Dotinsights showed that Polkadot nomination pools [surpassed 3M DOT](https://twitter.com/dotinsights_xyz/status/1643240360578281472) in total stake with 8K+ pool members, and Web3 Foundation Grants Program achieved [the 500 project milestone](https://twitter.com/dotinsights_xyz/status/1644281591727022080) by the end of Q1 2023. For a panoramic view of growth trends within the Polkadot ecosystem, check out [Polkadot Deep Dive Report Q1 2023](https://dotinsights.subwallet.app/polkadot-report-q1-2023-en/).
@@ -103,6 +108,21 @@ This implements transactional support for `ProofRecorder`. A transaction can be 
 This PR adds the `builder` style apis to create runtime executor and deprecates the old `new` api for executor.
 
 ## 👀 Releases
+
+Go to [Polkadiff](https://polkadiff.parity.io/) for a full list of merged PRs into Substrate and Polkadot since the last Polkadot release and be sure to read the last Polkadot Release Analysis reports [on the Polkadot forum](https://forum.polkadot.network/tag/release-analysis). In this section, we go over updates to various core tools developed by Parity for the ecosystem.
+
+
+### **Subxt ([v0.28.0](https://github.com/paritytech/subxt/releases/tag/v0.28.0)) 📫**
+
+_A Rust library to submit extrinsics (transactions) to a Substrate node via RPC._
+
+This release contains significant changes including: unifying the encoding and decoding of static and dynamic types, new CLI functionality and improvements to `DispatchError`.
+
+### **Sidecar ([v15.0.0](https://github.com/paritytech/substrate-api-sidecar/releases)) 🚗**
+
+_Sidecar is a REST service that makes it easy to interact with blockchain nodes built using Substrate's FRAME framework._
+
+Notable changes include fixes for updates to Polkadot-JS and a bug fix related to `/blocks/head`.
 
 ## 📰 Substrate jobs
 
