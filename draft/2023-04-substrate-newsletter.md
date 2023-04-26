@@ -1,6 +1,6 @@
 ## ⭐TL;DR and important announcements
 
-- Data collected by SubWallet & Dotinsights showed that Polkadot nomination pools [surpassed 3M DOT](https://twitter.com/dotinsights_xyz/status/1643240360578281472) in total stake with 8K+ pool members, and Web3 Foundation Grants Program achieved [the 500 project milestone](https://twitter.com/dotinsights_xyz/status/1644281591727022080) by the end of Q1 2023. For a panoramic view of growth trends within the Polkadot ecosystem, check out [Polkadot Deep Dive Report Q1 2023](https://dotinsights.subwallet.app/polkadot-report-q1-2023-en/) by SubWallet & Dotinsights.
+- Data collected by SubWallet & Dotinsights showed that Polkadot nomination pools [surpassed 3M DOT](https://twitter.com/dotinsights_xyz/status/1643240360578281472) in total stake with 8K+ pool members, and Web3 Foundation Grants Program achieved [the 500 project milestone](https://twitter.com/dotinsights_xyz/status/1644281591727022080) by the end of Q1 2023. For a panoramic view of growth trends within the Polkadot ecosystem, check out [Polkadot Deep Dive Report Q1 2023](https://dotinsights.subwallet.app/polkadot-report-q1-2023-en/).
 
 ## 📆 Upcoming events
 
