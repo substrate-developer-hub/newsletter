@@ -96,6 +96,7 @@ This implements transactional support for `ProofRecorder`. A transaction can be 
 ### [#13740](https://github.com/paritytech/substrate/pull/13740) Refactor(sc-executor): use wasm executor builder instead of old apis
 
 This PR adds the `builder` style apis to create runtime executor and deprecates the old `new` api for executor.
+
 ## 👀 Releases
 
 ## 📰 Substrate jobs
