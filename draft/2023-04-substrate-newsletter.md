@@ -3,9 +3,12 @@
 Welcome to the April edition of the Substrate developer newsletter - the best place to discover the latest news from the Substrate and Polkadot community. We cover everything, from upcoming events and newly released learning material to technical updates for developers building with Substrate and FRAME. 
 
 Don’t forget, the newsletter is open to community contributions, so if there’s any news you’d like to see featured, don’t hesitate: make a PR to the next edition [here](https://github.com/substrate-developer-hub/newsletter/pulls).
+
 ## ⭐TL;DR and important announcements
 
-- Data collected by SubWallet & Dotinsights showed that Polkadot nomination pools [surpassed 3M DOT](https://twitter.com/dotinsights_xyz/status/1643240360578281472) in total stake with 8K+ pool members, and Web3 Foundation Grants Program achieved [the 500 project milestone](https://twitter.com/dotinsights_xyz/status/1644281591727022080) by the end of Q1 2023. For a panoramic view of growth trends within the Polkadot ecosystem, check out [Polkadot Deep Dive Report Q1 2023](https://dotinsights.subwallet.app/polkadot-report-q1-2023-en/).
+- Data collected by SubWallet & Dotinsights showed that Polkadot nomination pools [surpassed 3M DOT](https://twitter.com/dotinsights_xyz/status/1643240360578281472) in total stake with 8K+ pool members, and Web3 Foundation Grants Program achieved [the 500 project milestone](https://twitter.com/dotinsights_xyz/status/1644281591727022080) by the end of Q1 2023. 
+- For a panoramic view of growth trends within the Polkadot ecosystem, check out [Polkadot Deep Dive Report Q1 2023](https://dotinsights.subwallet.app/polkadot-report-q1-2023-en/).
+
 
 ## 📆 Upcoming events
 
@@ -28,9 +31,16 @@ Don’t forget, the newsletter is open to community contributions, so if there�
 
 * [XCM v3: Breaking New Ground for Web3 Interoperability](https://polkadot.network/blog/xcm-v3-breaking-new-ground-for-web3-interoperability/)
 * [Polkadot Update: Q1 2023](https://polkadot.network/blog/polkadot-update-q1-2023/)
+* [Saturn: The Future of Multi-Party Ownership](https://invarch.medium.com/saturn-the-future-of-multi-party-ownership-ac7190f86a7b)
 
 
 ## 🎓 Learning
+
+- Watch the last Substrate Seminar: [Tuxedo: a UTXO alternative to FRAME](https://www.youtube.com/watch?v=6AY5VqXIAcM&list=PLOyWqupZ-WGsfgxkwTdMOwnbRW4nx_T-i&index=4) 
+- Watch the latest [Polkadot Deep Dives](https://www.youtube.com/watch?v=6OduyxOwuxg&list=PLOyWqupZ-WGsfnlpkk0KWX3uS4yg6ZztG&index=1). This past month there's been deep dives about the Identity and Nicks pallets, FRAME Benchmarking, the Atomic Swap and Gilt pallets.
+- Learn how to use ChatGPT to write and debug Smart Contracts on Moonbeam [video link](https://www.youtube.com/watch?v=3_p2FCHTF3w).
+- Learn about public credentials and AssetDIDs for NFTs on Kilt [video link](https://www.youtube.com/watch?v=ExVX9t9-EXU)
+- RMRK's two EIPs have officially become ERC-5773 and ERC-6059, bringing standards to next generation NFTs in web3. What is the new ERC-5773? Read [this thread](https://twitter.com/RmrkApp/status/1649796934821986305) by the RMRK team who developed it.
 
 ## ☕️ Technical updates
 
