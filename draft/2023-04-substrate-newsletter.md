@@ -6,9 +6,10 @@ Don’t forget, the newsletter is open to community contributions, so if there�
 
 ## ⭐TL;DR and important announcements
 
-- Data collected by SubWallet & Dotinsights showed that Polkadot nomination pools [surpassed 3M DOT](https://twitter.com/dotinsights_xyz/status/1643240360578281472) in total stake with 8K+ pool members, and Web3 Foundation Grants Program achieved [the 500 project milestone](https://twitter.com/dotinsights_xyz/status/1644281591727022080) by the end of Q1 2023. 
+- Data collected by SubWallet & Dotinsights showed that Polkadot nomination pools [surpassed 3M DOT](https://twitter.com/dotinsights_xyz/status/1643240360578281472) in total stake with 8K+ pool members.
+- The Web3 Foundation Grants Program achieved its [500 project milestone](https://twitter.com/dotinsights_xyz/status/1644281591727022080) by the end of Q1 2023.
 - For a panoramic view of growth trends within the Polkadot ecosystem, check out [Polkadot Deep Dive Report Q1 2023](https://dotinsights.subwallet.app/polkadot-report-q1-2023-en/).
-
+- Get your ink! Projects funded with [ink!ubator](https://use.ink/ubator/) which just launched this month.
 
 ## 📆 Upcoming events
 
@@ -19,13 +20,13 @@ Don’t forget, the newsletter is open to community contributions, so if there�
 
 ## 🔦 Community highlights
 
-- Co-organized by Parity & SubWallet as part of DOTinVietnam event series with the participation of Moonbeam, Litentry, ArtZero, Gafi Network, MoonFit, StellaSwap, InvArch & Polkadot Insider, Beyond The Chain Vietnam 2023 has concluded successfully with 100+ builders & developers attending to learn Polkadot & Substrate. Check out the [highlight thread](https://twitter.com/dotinvietnam/status/1645351053116964864) & [highlight video](https://www.youtube.com/watch?v=kEm42m8vDJs). 
+- Co-organized by Parity & SubWallet as part of the DOTinVietnam event series with the participation of Moonbeam, Litentry, ArtZero, Gafi Network, MoonFit, StellaSwap, InvArch & Polkadot Insider - Beyond The Chain Vietnam 2023 has concluded successfully with 100+ builders & developers attending to learn Polkadot & Substrate. Check out the [highlight thread](https://twitter.com/dotinvietnam/status/1645351053116964864) & [highlight video](https://www.youtube.com/watch?v=kEm42m8vDJs). 
 
 ### ink!ubator launched this month!
 
 <img src="https://use.ink/img/twitter/inkubator-twitter.png" />
 
-* ink!ubator is an initiative funded by the Polkadot Treasury's Bounty Program. It is designed to kickstart the ink! ecosystem  in the areas of developer growth, security audits, infrastructure, and high profile product launches. It offers grants, technical support from core developers, contract security audits, and much more. You can [apply to ink!ubator here](https://use.ink/ubator/) and follow updates on [Twitter](https://twitter.com/ink_lang).
+* ink!ubator is an initiative funded by the Polkadot Treasury's Bounty Program. It is designed to kickstart the ink! ecosystem in the areas of developer growth, security audits, infrastructure, and high profile product launches. It offers grants, technical support from core developers, contract security audits, and much more. You can [apply to ink!ubator here](https://use.ink/ubator/) and follow updates on [Twitter](https://twitter.com/ink_lang).
 
 ### Blogs
 
@@ -37,10 +38,10 @@ Don’t forget, the newsletter is open to community contributions, so if there�
 ## 🎓 Learning
 
 - Watch the last Substrate Seminar: [Tuxedo: a UTXO alternative to FRAME](https://www.youtube.com/watch?v=6AY5VqXIAcM&list=PLOyWqupZ-WGsfgxkwTdMOwnbRW4nx_T-i&index=4) 
-- Watch the latest [Polkadot Deep Dives](https://www.youtube.com/watch?v=6OduyxOwuxg&list=PLOyWqupZ-WGsfnlpkk0KWX3uS4yg6ZztG&index=1). This past month there's been deep dives about the Identity and Nicks pallets, FRAME Benchmarking, the Atomic Swap and Gilt pallets.
-- Learn how to use ChatGPT to write and debug Smart Contracts on Moonbeam [video link](https://www.youtube.com/watch?v=3_p2FCHTF3w).
+- Watch the latest [Polkadot Deep Dives](https://www.youtube.com/watch?v=6OduyxOwuxg&list=PLOyWqupZ-WGsfnlpkk0KWX3uS4yg6ZztG&index=1). This past month there’ve been deep dives about the Identity and Nicks pallets, FRAME Benchmarking, the Atomic Swap and Gilt pallets.
+- Learn how to use ChatGPT to write and debug Smart Contracts on Moonbeam [in this video](https://www.youtube.com/watch?v=3_p2FCHTF3w).
 - Learn about public credentials and AssetDIDs for NFTs on Kilt [video link](https://www.youtube.com/watch?v=ExVX9t9-EXU)
-- RMRK's two EIPs have officially become ERC-5773 and ERC-6059, bringing standards to next generation NFTs in web3. What is the new ERC-5773? Read [this thread](https://twitter.com/RmrkApp/status/1649796934821986305) by the RMRK team who developed it.
+- RMRK's two EIPs have officially become ERC-5773 and ERC-6059, bringing standards to next generation NFTs in Web3. What is the new ERC-5773? Read [this thread](https://twitter.com/RmrkApp/status/1649796934821986305) by the RMRK team who developed it.
 
 ## ☕️ Technical updates
 
@@ -50,15 +51,11 @@ _Here are note-worthy **runtime** PRs in the Substrate repo merged between 2023-
 
 ### [#13851](https://github.com/paritytech/substrate/pull/13851) Fix fungible and fungibles set_balance return value
 
-There is a bug in the calculation of the return value of the `fungible` and `fungibles` `set_balance` default implementation.
-
-The doc comment says it should return the new balance, but instead it returns `requested_balance +/- balance_change`.
+This PR fixes a bug in the calculation of the return value of the `fungible` and `fungibles` `set_balance` default implementation.
 
 ### [#13835](https://github.com/paritytech/substrate/pull/13835) `RemovePallet` migration utility struct
 
-Migration utility struct that allows easily removing pallet storage on the next runtime upgrade. 
-
-Useful for things like removing Gov V1 pallet storage after the switch to OpenGov.
+This PR adds a migration utility struct that allows easily removing pallet storage on the next runtime upgrade, useful for things like removing Gov V1 pallet storage after the switch to OpenGov.
 
 ### [#13798](https://github.com/paritytech/substrate/pull/13798) Uniform pallet warnings
 
