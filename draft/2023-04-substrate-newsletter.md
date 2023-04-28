@@ -131,6 +131,19 @@ _Sidecar is a REST service that makes it easy to interact with blockchain nodes 
 
 Notable changes include fixes for updates to Polkadot-JS and a bug fix related to `/blocks/head`.
 
+### **Cargo Contract ([v2.2.0](https://github.com/paritytech/cargo-contract/releases/tag/v2.2.0)) 🏗️** 
+
+_Cargo Contract is a the setup and deployment tool for developing Wasm based smart contracts via ink!_
+
+Notable updates include adding the new `info` command which exports the build output in JSON format.
+
+### **ink! ([v4.2.0](https://github.com/paritytech/ink/releases/tag/v4.2.0)) 🦑**
+
+_Parity's ink! to write smart contracts._
+
+New features include the ability to make calls to pallets in E2E testing and adding a default attribute to constructors and messages.
+
+
 ## 📰 Substrate jobs
 
 Have a look at all the open roles in the ecosystem on the [Substrate Job Board](https://careers.substrate.io/jobs).
