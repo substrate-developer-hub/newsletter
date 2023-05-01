@@ -2,6 +2,8 @@
 
 ## 📆 Upcoming events
 
+* 2023-05-07 [ETHTallinn](https://www.ethtallinn.org/agenda), featuring speaker [Sacha Lansky](https://twitter.com/SachaL__)
+
 ## 🔦 Community highlights
 
 ## 🎓 Learning
