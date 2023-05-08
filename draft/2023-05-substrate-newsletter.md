@@ -8,7 +8,7 @@
 
 OnFinality adds support for tracing and storage subscription RPC APIs to our Enhanced API service. Trace API is an application programming interface that allows developers to monitor and “trace” the history of what was executed on-chain in a given block. It captures and records vital information otherwise not available through regular RPC methods and extrinsics (such as complete XCM transfer records and complete list of balance changes). This kind of API is required for developers to fully analyse and inspect XCM events on chain.
 
-OnFinality has launched beta support and is rolling this out to all supported parachains (over 40 of them) in the coming days. [Read more here](https://blog.onfinality.io/onfinality-launches-trace-api-for-unprecedented-visibility-into-your-dapps/)
+OnFinality has launched beta support and is rolling this out to all supported parachains (over 40 of them) in the coming days. [Read more here](https://blog.onfinality.io/onfinality-launches-trace-api-for-unprecedented-visibility-into-your-dapps/).
 
 ## 🎓 Learning
  
