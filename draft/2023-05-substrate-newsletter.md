@@ -12,6 +12,8 @@ OnFinality has launched beta support and is rolling this out to all supported pa
 
 ## 🎓 Learning
  
+ * Learn how to make your own NFT collection in minutes on Moonbeam using Apillon in this [blog post](https://blog.apillon.io/make-your-own-nft-collection-in-minutes-brought-to-moonbeam-by-apillon-538fdf34fc5)
+
 ## ☕️ Technical updates
 
 ## 👀 Releases
