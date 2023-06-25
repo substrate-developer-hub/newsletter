@@ -372,4 +372,4 @@ This code change implements a feature for calculating statement count/size limit
 
 **Summary**
 
-The code changes involve removing or renaming several CLI options in Substrate, including --rpc--max--payload, --ws--max--out-buffer-capacity, --ws-external, --unsafe--ws--external, --ipc--path, --ws-port, --ws-max--connections, --rpc-http, and --rpc-ws. These changes are reflected in the Polkadot and Cumulus companions.
+The code changes involve removing or renaming several CLI options in Substrate, including `--rpc--max--payload`, `--ws--max--out-buffer-capacity`, `--ws-external`, `--unsafe--ws--external`, `--ipc--path`, `--ws-port`, `--ws-max--connections`, `--rpc-http`, and `--rpc-ws`. These changes are reflected in the Polkadot and Cumulus companions.
