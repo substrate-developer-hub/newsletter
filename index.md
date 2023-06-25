@@ -12,6 +12,12 @@ Not yet subscribed? Subscribe [here](https://substrate.io/ecosystem/connect/news
 
 | Date | Subject line |
 | ------ | ----- |
+| 26 June 2023 | [May and June updates to Substrate for Polkadot devs ⚪️](/content/2023-06-substrate-newsletter.md) |
+
+Past editions prior to the new newsletter format:
+
+| Date | Subject line |
+| ------ | ----- |
 | 28 APR 2023 | [April updates for Substrate and Polkadot devs ⚪️](/content/2023-04-substrate-newsletter.md) |
 | 30 MAR 2023 | [ETHDenver Talks Published 📺, Learn ink! 4.0 tools  🦑, FRAME pallet highlights 🖼](/content/2023-03-substrate-newsletter.md) |
 | 16 FEB 2023 | [Notable updates for FRAME devs 🖼, New Deep Dives released 🤿, Calling builders to apply to RFPs and bounties ⚡️](/content/2023-02-substrate-newsletter.md) |
