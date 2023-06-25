@@ -2,6 +2,12 @@
 
 Here are note-worthy **Runtime** PRs in Substrate repo merged between 2023-05-01 and 2023-06-23.
 
+### [#14417](https://github.com/paritytech/substrate/pull/14417) suppress unused warning in kitchensink example
+
+**Summary**
+
+This PR fixes the unused error for `new_test_ext()` when compiling `cargo test` in the kitchensink node by adding a test that uses it.
+
 ### [#14397](https://github.com/paritytech/substrate/pull/14397) Delete 1D weight ctors and set explicit deprecation dates
 
 **Summary**
