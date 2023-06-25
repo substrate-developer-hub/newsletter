@@ -338,7 +338,7 @@ The code change exposes database parameters for `RevertCmd` via CLI, allowing us
 
 **Summary**
 
-This code change fixes an issue where a node would need to do a major sync to sync to the tip of the chain if it was stopped and started while downloading block history, even after warp syncing. The change also updates the sync state displayed by Informant.
+This code change fixes an issue where a node would need to do a major sync to sync to the tip of the chain if it was stopped and started while downloading block history, even after warp syncing. The change also updates the sync state displayed by `Informant`.
 
 ---
 
