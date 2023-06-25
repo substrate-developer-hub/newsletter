@@ -22,7 +22,7 @@ This code change removes some types from `frame::support::inherent` and suggests
 
 **Summary**
 
-This code change allows for inspection of the track a submission origin is being made for, and updates all type bounders in Substrate to support the `EnsureOriginWithArg` trait as well as the `EnsureOrigin` trait. A macro is introduced to allow `EnsureOrigin` implementors to support `EnsureOriginWithArg`. If using Referenda pallet and encountering a build error around `SubmitOrigin`, wrap the type with `frame_support::AsEnsureOriginWithArg` to get an `EnsureOriginWithArg` implementation.
+This code change allows for inspection of the track a submission origin is being made for, and updates all type bounders in Substrate to support the `EnsureOriginWithArg` trait as well as the `EnsureOrigin` trait. A macro is introduced to allow `EnsureOrigin` implementors to support `EnsureOriginWithArg`. If using the Referenda pallet and encountering a build error around `SubmitOrigin`, wrap the type with `frame_support::AsEnsureOriginWithArg` to get an `EnsureOriginWithArg` implementation.
 
 ---
 
