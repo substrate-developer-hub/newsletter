@@ -30,7 +30,7 @@ This code change allows for inspection of the track a submission origin is being
 
 **Summary**
 
-This PR removes the hardcoded migration sequence from `migrations.rs` and places it within `Config` so it can be configured in the runtime. Developers need to update their runtime configuration with their pending migrations. This is a breaking change as it adds a new type to the `Config`.
+This PR removes the hardcoded migration sequence from `migrations.rs` in the Contracts pallet and places it within `Config` so it can be configured in the runtime. Developers need to update their runtime configuration with their pending migrations. This is a breaking change as it adds a new type to the `Config`.
 
 ---
 
@@ -38,7 +38,7 @@ This PR removes the hardcoded migration sequence from `migrations.rs` and places
 
 **Summary**
 
-The code changes include enabling `serde` features in dependent crates, adding `serde::Serialize` and `serde::Deserialize` implementation for `enum Forcing` in `frame::staking`, providing `Serialize/Deserialize` implementation for `impl_opaque_keys` macro in `primitives::runtime`, adding `serde::Serialize` and `serde::Deserialize` implementation for `enum StakerStatus` in `primitives::staking`, and implementing `serde::Serialize/Deserialize` for pallets `GenesisConfig` in `no-std`. These changes are a step towards issue #13334 and are also reflected in the Polkadot and Cumulus companions.
+The code changes include enabling `serde` features in dependent crates, adding `serde::Serialize` and `serde::Deserialize` implementation for `enum Forcing` in `frame::staking`, providing `Serialize/Deserialize` implementation for `impl_opaque_keys` macro in `primitives::runtime`, adding `serde::Serialize` and `serde::Deserialize` implementation for `enum StakerStatus` in `primitives::staking`, and implementing `serde::Serialize/Deserialize` for pallets `GenesisConfig` in `no-std`. These changes are a step towards issue [#13334](https://github.com/paritytech/substrate/issues/13334) and are also reflected in the Polkadot and Cumulus companions.
 
 ---
 
@@ -46,7 +46,7 @@ The code changes include enabling `serde` features in dependent crates, adding `
 
 **Summary**
 
-Summary: Allowing any kind of origin for `remark` should not have any negative consequences.
+This PR updates the System pallet to allow any kind of origin to call the `remark` dispatchable.
 
 ---
 
@@ -86,7 +86,7 @@ The PR adds a deprecation warning for using the runtime level `GenesisConfig`, w
 
 **Summary**
 
-This code change adds a migration that unreserves all deposits and unlocks all stake held by the elections-phragmen pallet. The migration collects pre-migration data useful for validating the migration was successful, and also checks the integrity of deposited and reserved balances. The on_runtime_upgrade unreserves and unlocks the balances, and post_upgrade checks that all expected locks were removed, and reserved balances were reduced by the expected amount.
+This code change adds a migration that unreserves all deposits and unlocks all stake held by the Elections-phragmen pallet. The migration collects pre-migration data useful for validating the migration was successful, and also checks the integrity of deposited and reserved balances. The on_runtime_upgrade unreserves and unlocks the balances, and post_upgrade checks that all expected locks were removed, and reserved balances were reduced by the expected amount.
 
 ---
 
@@ -118,7 +118,7 @@ The code change introduces a stateless function that generates a unique identifi
 
 **Summary**
 
-`set_lock` should not be a no-op when locking zero funds.
+This PR updates the `LockableCurrency` trait to ensure `set_lock` is not a no-op when locking zero funds.
 
 ---
 
@@ -142,9 +142,7 @@ The code change ensures that a referendum is only cancelled if the deciding depo
 
 **Description**
 
-Introducing the asset account state of `Blocked`, that is `Frozen` + ineligible to receive funds of the asset.
-
-requires https://github.com/paritytech/substrate/pull/13843
+This PR adds an asset account state of `Blocked` when it is `Frozen` and unable to receive funds of the asset.
 
 ---
 
@@ -152,7 +150,7 @@ requires https://github.com/paritytech/substrate/pull/13843
 
 **Summary**
 
-The PR adds a new pallet that showcases all `#[pallet::xxx]` macros and their usage. It is related to issue #13951 and was used to create issue #14053. It is accompanied by another PR that aims to improve documentation for these macros.
+The PR adds a new pallet that showcases all `#[pallet::xxx]` macros and their usage.
 
 ---
 
@@ -192,7 +190,7 @@ This PR updates the return types of several hooks and introduces a new type call
 
 **Summary**
 
-The code changes will now take into account the proof size while adjusting the fee, which will prevent an attacker from filling the block with storage size without paying an appropriate fee. The PR also considers proof size for calculation of transaction priority. Care needs to be taken to set the max PoV size for a chain to ensure optimal block fullness based on each weight dimension.
+The code changes will now take into account the proof size while adjusting the fee in the Transaction Payment pallet, which will prevent an attacker from filling the block with storage size without paying an appropriate fee. The PR also considers proof size for calculation of transaction priority. Care needs to be taken to set the max PoV size for a chain to ensure optimal block fullness based on each weight dimension.
 
 ---
 
@@ -200,7 +198,7 @@ The code changes will now take into account the proof size while adjusting the f
 
 **Summary**
 
-The `HoldReason` attribute was recently switched to use the `composite_enum` attribute, which requires changes to downstream code. The proper implementation is to use the `HoldReason` from inside the pallet directly when calling `hold`. The `HoldIdentifier` in `pallet_balances::Config` trait needs to be changed to `RuntimeHoldReason`, and `HoldReason` needs to be removed from `pallet_nis::Config` and replaced with `RuntimeHoldReason`.
+The `HoldReason` attribute was recently switched to use the `composite_enum` attribute, which requires changes to downstream code. This PR adds `RuntimeHoldReason` as type to the Config trait and requires that Currency is uses the same reason. With this update, `HoldReason` needs to be removed from `pallet_nis::Config` and replaced with `RuntimeHoldReason`. For the `pallet_balances::Config` trait you need to change `HoldIdentifier` to `RuntimeHoldReason` and pass the `RuntimeHoldReason` that is being generated by `construct_runtime!`.
 
 ---
 
@@ -232,7 +230,7 @@ The code changes involve deprecating `decl_module`, `decl_storage`, `decl_error`
 
 **Summary**
 
-This PR adds the ability for a pallet to define one or more defaults for its trait Config via #[pallet::config(with_default)]. Then, when writing impl Config for Runtime, one of these defaults can be used to elide any missing type item via #[derive_impl(path_to_default_impl)]. At the moment, this is limited to type items that do not rely on frame_system::Config. This PR also adds several attribute proc macros to frame_support, most notably #[derive_impl(..)] and #[register_default_impl(..)], which in tandem make it possible to create trait impls that provide sane defaults and dynamically inject the non-colliding trait items from these impls into downstream trait impls that want to use the sane defaults but potentially override some of them.
+This PR adds the ability for a pallet to define one or more defaults for its trait Config via `#[pallet::config(with_default)]`. Then, when writing `impl Config for Runtime`, one of these defaults can be used to elide any missing type item via `#[derive_impl(path_to_default_impl)]`. At the moment, this is limited to type items that do not rely on `frame_system::Config`. This PR also adds several attribute proc macros to frame_support, most notably `#[derive_impl(..)]` and `#[register_default_impl(..)]`, which in tandem make it possible to create trait impls that provide sane defaults and dynamically inject the non-colliding trait items from these impls into downstream trait impls that want to use the sane defaults but potentially override some of them.
 
 ---
 
@@ -248,7 +246,7 @@ This code change ensures that if a user forgets to set the storage version in a 
 
 **Summary**
 
-The code changes benchmark `system::set_code` by timing uncompression and setting the *kitchensink* runtime to determine an upper bound. It is a fix for issue #13192.
+The code changes benchmark `system::set_code` by timing uncompression and setting the *kitchensink* runtime to determine an upper bound.
 
 ---
 
@@ -264,7 +262,7 @@ This PR adds host function calls for elliptic curve arithmetic used by Arkworks 
 
 **Summary**
 
-The changes to Society include the removal of technical limitations on the number of members, proper use of BoundedVec, and the ability for the founder to alter max members and intake size without a runtime upgrade. Members are ranked and voting weight is determined by rank. The candidate voting process is now a two-phase process, and the voting/reward/punishment scheme for candidates and challenged members is completely different. New dispatchables have been added to the UI.
+The changes to Society pallet include the removal of technical limitations on the number of members, proper use of `BoundedVec`, and the ability for the founder to alter max members and intake size without a runtime upgrade. Members are ranked and voting weight is determined by rank. The candidate voting process is now a two-phase process, and the voting/reward/punishment scheme for candidates and challenged members is completely different.
 
 ---
 
@@ -292,7 +290,7 @@ The tree route will be calculated against the best block and used to determine i
 
 **Summary**
 
-The code fix corrects the where bound for the `create_metadata` function by using the where bound declared at the type declaration augmented with the manual where bound. It closes an issue on GitHub.
+The code fix corrects the where bound for the `create_metadata` function by using the where bound declared at the type declaration augmented with the manual where bound.
 
 ---
 
@@ -300,7 +298,7 @@ The code fix corrects the where bound for the `create_metadata` function by usin
 
 **Summary**
 
-The code changes involve moving `Peerset`, `PeerStore`, and `ProtocolController` from `sc-peerset` to `sc-network` & `sc-network-common` in preparation for an upcoming issue. The `B1-note_worthy` label is added because the `sc-peerset` crate is retired.
+The code changes involve moving `Peerset`, `PeerStore`, and `ProtocolController` from `sc-peerset` to `sc-network` & `sc-network-common` in preparation for [#14170](https://github.com/paritytech/substrate/issues/14170). The `B1-note_worthy` label is added because the `sc-peerset` crate is retired.
 
 ---
 
@@ -332,7 +330,7 @@ The change makes it clearer to the user what the system is waiting for, instead 
 
 **Summary**
 
-The code change exposes database parameters for `RevertCmd` via CLI, allowing users to use `revert` with ParityDb. It also closes an issue on GitHub.
+The code change exposes database parameters for `RevertCmd` via CLI, allowing users to use `revert` with ParityDb.
 
 ---
 
@@ -348,7 +346,7 @@ This code change fixes an issue where a node would need to do a major sync to sy
 
 **Summary**
 
-The code changes add delayed block finalization for instant block sealing consensus, which is needed for local development nodes such as substrate-contract-node and swanky-node. Frontend development requires the ability to configure the delayed time for block finalization after blocks are imported. An integration example for an actual node can be found in a pull request.
+The code changes add delayed block finalization for instant block sealing consensus, which is needed for local development nodes such as substrate-contract-node and swanky-node. Frontend development requires the ability to configure the delayed time for block finalization after blocks are imported. An integration example for an actual node can be found [here](https://github.com/AstarNetwork/swanky-node/pull/61).
 
 ---
 
@@ -356,7 +354,7 @@ The code changes add delayed block finalization for instant block sealing consen
 
 **Summary**
 
-The pull request removes the `wasmi` backend, making the runtime execution exclusively `wasmtime`. It also closes issue #13496.
+This PR removes the `wasmi` backend, making the runtime execution exclusively `wasmtime`.
 
 ---
 
