@@ -2,13 +2,17 @@
 
 Welcome to an archive of the official Substrate Developer Newsletter.
 
-The Substrate Developer newsletter provides monthly updates on new releases, including features in FRAME; changes in Polkadot and Cumulus; community updates from ecosystem teams; new learning material; and events relevant to builders in the ecosystem. As of March 2023, the newsletter will be published at the end of each month, covering updates from that month.
-
 This page renders past newsletters published to [this Github repository](https://github.com/substrate-developer-hub/newsletter).
 
 Not yet subscribed? Subscribe [here](https://substrate.io/ecosystem/connect/newsletter/).
 
 ## Past editions
+
+| Date | Subject line |
+| ------ | ----- |
+| 26 June 2023 | [May and June updates to Substrate ⚪️](/content/2023-06-substrate-newsletter.md) |
+
+Past editions prior to the new newsletter format:
 
 | Date | Subject line |
 | ------ | ----- |
