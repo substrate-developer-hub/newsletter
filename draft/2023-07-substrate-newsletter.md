@@ -6,7 +6,7 @@ Here are note-worthy **Runtime** PRs in Substrate repo merged between 2023-06-23
 
 **Summary**
 
-Summary: The code changes recommended by @gavofyork involve more consistent naming for the `WeightMeter`. The changes include deprecating certain methods and introducing new ones with different names. Additionally, the `consumed` and `limit` variables are privatized and new getter methods `consumed()` and `limit()` are added.
+The code changes recommended by @gavofyork involve more consistent naming for the `WeightMeter`. The changes include deprecating certain methods and introducing new ones with different names. Additionally, the `consumed` and `limit` variables are privatized and new getter methods `consumed()` and `limit()` are added.
 
 ---
 
@@ -14,7 +14,7 @@ Summary: The code changes recommended by @gavofyork involve more consistent nami
 
 **Summary**
 
-This code change closes an issue on GitHub and includes a change to always run the `integrity_test` in test externalities.
+This code change includes a change to always run the `integrity_test` in test externalities.
 
 ---
 
@@ -22,7 +22,7 @@ This code change closes an issue on GitHub and includes a change to always run t
 
 **Summary**
 
-This PR stabilizes the V15 metadata by making several changes. It exposes APIs to easily update the metadata in the future, collects type information about the runtime API functions, adds overarching enums to the metadata to ease decoding, modifies the extrinsic metadata to include type information for certain types, and adds support for custom types without breaking changes. These changes aim to improve the stability and functionality of the metadata.
+This PR stabilizes the V15 metadata by making several changes. It exposes APIs to easily update the metadata in the future, collects type information about the runtime API functions, adds overarching enums to the metadata to ease decoding, modifies the extrinsic metadata to include type information for certain types, and adds support for custom types without breaking changes. These changes aim to improve the stability and functionality of metadata for Substrate chains.
 
 ---
 
@@ -38,7 +38,7 @@ This code change fixes an issue related to defining parameters in `construct_run
 
 **Summary**
 
-This code change closes an issue on GitHub and includes memory database reference counts when the test-externalities storage is backed up and restored from snapshots.
+This code change includes memory database reference counts when the test-externalities storage is backed up and restored from snapshots.
 
 ---
 
@@ -46,15 +46,15 @@ This code change closes an issue on GitHub and includes memory database referenc
 
 **Summary**
 
-Summary: This code change introduces a `QueuePausedQuery` hook into the MQ pallet that allows for dynamically pausing queues before they start servicing. It reduces complexity and improves efficiency compared to using `Yield` or implementing `ProcessMessage` for pausing. Additionally, explicit suspension via a bool flag in `BookState` is implemented, although it is not well usable for the specific context of the code change. The changes include adding the `QueuePausedQuery` to the MQ pallet config, adding a new trait, and extending error types.
+This code change introduces a `QueuePausedQuery` hook into the Message Queue pallet that allows for dynamically pausing queues before they start servicing. It reduces complexity and improves efficiency compared to using `Yield` or implementing `ProcessMessage` for pausing. Additionally, explicit suspension via a bool flag in `BookState` is implemented, although it is not well usable for the specific context of the code change. The changes include adding the `QueuePausedQuery` to the Message Queue pallet config, adding a new trait, and extending error types.
 
 ---
 
-### [#14311](https://github.com/paritytech/substrate/pull/14311) migrations: VersionedRuntimeUpgrade
+### [#14311](https://github.com/paritytech/substrate/pull/14311) migrations: `VersionedRuntimeUpgrade`
 
 **Summary**
 
-This code change makes it easier to write versioned runtime upgrades. It introduces a struct called VersionedRuntimeUpgrade that handles version handling and allows developers to write migrations without worrying about checking and setting storage versions. The struct takes five type parameters and when its `on_runtime_upgrade` method is called, it compares the on-chain version of the pallet to the version being upgraded from. If they match, the `Inner::on_runtime_upgrade` method is called and the on-chain version is set to the version being upgraded to. Otherwise, a warning is logged. The code change also includes an example and discusses the decision to keep `#[pallet::storage_version]` and use `From` and `To` instead of just `Version`. There are also some TODOs listed.
+This code change makes it easier to write versioned runtime upgrades. It introduces a struct called `VersionedRuntimeUpgrade` that handles version handling and allows developers to write migrations without worrying about checking and setting storage versions. The struct takes five type parameters and when its `on_runtime_upgrade` method is called, it compares the on-chain version of the pallet to the version being upgraded from. If they match, the `Inner::on_runtime_upgrade` method is called and the on-chain version is set to the version being upgraded to. Otherwise, a warning is logged. The code change also includes an example and discusses the decision to keep `#[pallet::storage_version]` and use `From` and `To` instead of just `Version`. There are also some TODOs listed.
 
 ---
 
@@ -86,7 +86,7 @@ This PR introduces changes to expose the overarching types for `RuntimeEvent`, `
 
 **Summary**
 
-This is a proposal for a new Runtime API called `GenesisBuilder` that allows for creating and serializing a default `GenesisConfig` to JSON, as well as deserializing and storing a `GenesisConfig` from a JSON blob. This change is related to issue #13334 and is required by a pull request in the ParityTech/substrate repository.
+This is a proposal for a new Runtime API called `GenesisBuilder` that allows for creating and serializing a default `GenesisConfig` to JSON, as well as deserializing and storing a `GenesisConfig` from a JSON blob. This change is related to issue [#13334](https://github.com/paritytech/substrate/issues/13334), a step towards getting rid of the native runtime.
 
 ---
 
@@ -110,7 +110,7 @@ Introduces a pallet called `pallet-paged-list` that provides a linked list data 
 
 **Summary**
 
-This code change closes an issue on GitHub and involves several modifications:
+This code change involves several modifications:
 
 1. The removal of uploaded Wasm blob instrumentation.
 2. The elimination of storing instrumented code.
@@ -125,8 +125,6 @@ The fuel syncs involve two separate fuel meters, one for measuring `Weight` burn
 The migration process involves removing `CodeStorage` and renaming `OwnerInfo` to `CodeInfo`. It also refunds deposits attached to the freed-up storage.
 
 The effects of this change include improved storage usage efficiency and performance, resulting in cost savings for contract authors and users.
-
-There is also a follow-up task to remove the `wasm-instrument`/`parity-wasm` dependency.
 
 ---
 
@@ -152,12 +150,9 @@ The native runtime will be removed, so the `native_runtime_version` function wil
 
 ### [#14508](https://github.com/paritytech/substrate/pull/14508) WasmExecutor flag to ignore onchain heappages value
 
-**Description**
+**Summary**
 
-Add `ignore_onchain_heap_pages` flag to `WasmExecutorBuilder` to ignore the on-chain value of heap pages and use the default one.
-
-More info in https://github.com/paritytech/cumulus/issues/2641#issuecomment-1593117543
-
+This PR adds `ignore_onchain_heap_pages` flag to `WasmExecutorBuilder` to ignore the on-chain value of heap pages and use the default one.
 
 ---
 
@@ -197,7 +192,7 @@ This code change adds support for nested transactions in `sp-api` by using `exec
 
 **Summary**
 
-Closes issue #14296 on GitHub.
+This PR put's `frame-metadata` behind a feature flag to allow for building non-FRAME runtimes that require `sp-api` without needing to build the FRAME crates.
 
 ---
 
@@ -205,7 +200,7 @@ Closes issue #14296 on GitHub.
 
 **Summary**
 
-This pull request removes the execution strategies and prepares for making `sp-api` not compile time dependent on the native runtime. It also introduces behavior changes to the runtime API, removes the `build_offchain_workers` function, and makes changes to the Grandpa and BABE client crates. Additionally, several CLI args are deprecated.
+This PR removes the execution strategies and prepares for making `sp-api` not compile time dependent on the native runtime. It also introduces behavior changes to the runtime API, removes the `build_offchain_workers` function, and makes changes to the Grandpa and BABE client crates. Additionally, several CLI args are deprecated.
 
 ---
 
@@ -213,4 +208,4 @@ This pull request removes the execution strategies and prepares for making `sp-a
 
 **Summary**
 
-The code changes involve updating to new hardware specifications, with a slower CPU but faster disk. The benchmark results show the relative changes in performance for different operations. The disk speed values were rounded down for consistency. This change closes an issue and is marked as noteworthy for the change log.
+The code changes involve updating to new hardware specifications, with a slower CPU but faster disk. The benchmark results show the relative changes in performance for different operations. The disk speed values were rounded down for consistency.
