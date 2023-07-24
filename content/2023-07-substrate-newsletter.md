@@ -1,3 +1,6 @@
+This page contains summaries of the merged PRs into Substrate organized in two sections: "Runtime" (using the `B1-note_worthy` + `T1-runtime` labels) and "Node SDK" (using the `B1-note_worthy` + `T0-node` labels).
+Read more about how Substrate uses labels [here](https://github.com/paritytech/substrate/blob/master/docs/CONTRIBUTING.adoc#merge-process).
+
 ## Runtime
 
 Here are note-worthy **Runtime** PRs in Substrate repo merged between 2023-06-23 and 2023-07-25.
