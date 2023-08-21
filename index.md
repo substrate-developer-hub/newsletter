@@ -10,6 +10,7 @@ Not yet subscribed? Subscribe [here](https://substrate.io/ecosystem/connect/news
 
 | Date | Subject line |
 | ------ | ----- |
+| 21 AUG 2023 | [August updates to Substrate for Polkadot devs ⚪️](/content/2023-08-substrate-newsletter.md) |
 | 25 JUL 2023 | [July updates to Substrate for Polkadot devs ⚪️](/content/2023-07-substrate-newsletter.md) |
 | 26 JUN 2023 | [May and June updates to Substrate for Polkadot devs ⚪️](/content/2023-06-substrate-newsletter.md) |
 
