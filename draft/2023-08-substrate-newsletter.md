@@ -1,3 +1,6 @@
+This page contains summaries of the merged PRs into Substrate organized in two sections: "Runtime" (using the `B1-note_worthy` + `T1-runtime` labels) and "Node SDK" (using the `B1-note_worthy` + `T0-node` labels).
+Read more about how Substrate uses labels [here](https://github.com/paritytech/substrate/blob/master/docs/CONTRIBUTING.adoc#merge-process).
+
 ## Runtime
 
 Here are note-worthy **Runtime** PRs in Substrate repo merged between 2023-07-26 and 2023-08-21.
@@ -6,7 +9,7 @@ Here are note-worthy **Runtime** PRs in Substrate repo merged between 2023-07-26
 
 **Summary**
 
-The cumulative weight is not incremented in the current implementation.
+Updates the `try_on_runtime_upgrade` implementation to increment the cumulative weights.
 
 ---
 
@@ -22,7 +25,7 @@ This pull request improves the `storage_alias` by making it more generic over th
 
 **Summary**
 
-This code change updates the documentation of the Scheduler Pallet and adds a warning section to inform users of anti-patterns when scheduling runtime calls. It closes issue #14715.
+This code change updates the documentation of the Scheduler Pallet and adds a warning section to inform users of anti-patterns when scheduling runtime calls.
 
 ---
 
@@ -30,7 +33,7 @@ This code change updates the documentation of the Scheduler Pallet and adds a wa
 
 **Summary**
 
-The code changes are related to issue #14666.
+The PR removes the deprecated weight implementation.
 
 ---
 
@@ -38,7 +41,7 @@ The code changes are related to issue #14666.
 
 **Summary**
 
-The changes include removing the `decl_` macro syntax and moving `no_bound` derives to their own folder. There is also a follow-up task to refactor or remove frame storage generator types.
+The changes include removing the `decl_` macro syntax and moving `no_bound` derives to their own folder.
 
 ---
 
@@ -54,7 +57,7 @@ This code change aims to provide insights into the internals of the contracts pa
 
 **Summary**
 
-This PR removes the deposit accounts and updates the migrations to be backwards compatible. A new migration is added to move the balance from the deposit accounts back to the contract accounts.
+This PR removes deposit accounts in the Contracts pallet and updates the migrations to be backwards compatible. A new migration is added to move the balance from the deposit accounts back to the contract accounts.
 
 ---
 
@@ -62,7 +65,7 @@ This PR removes the deposit accounts and updates the migrations to be backwards 
 
 **Summary**
 
-Deprecate `propose_spend` dispatchable and its dependent dispatchables, `reject_proposal` and `approve_proposal`, in favor of using the `spend` dispatchable.
+This PR deprecates the `propose_spend` dispatchable and its dependent dispatchables, `reject_proposal` and `approve_proposal`, in favor of using the `spend` dispatchable.
 
 ---
 
@@ -70,11 +73,11 @@ Deprecate `propose_spend` dispatchable and its dependent dispatchables, `reject_
 
 **Summary**
 
-This code change modifies the `DeriveImpl` experimental feature to generate a trait that extends `frame_system::DefaultConfig` if the `trait Config` is bound by `frame_system::Config`. This allows types reliant on `frame_system::Config` to have defaults if they are present in `frame_system::DefaultConfig`. The code for `impl DefaultConfig for SomeStruct` is currently pure Rust, but there is a suggestion to potentially add a feature to automatically inject the necessary code.
+This code change modifies the `DeriveImpl` experimental feature to generate a trait that extends `frame_system::DefaultConfig` if the `trait Config` is bound by `frame_system::Config` and provides examples of its use in the test files of the Proxy and Multisig pallets. This update allows types reliant on `frame_system::Config` to have defaults if they are present in `frame_system::DefaultConfig`.
 
 ---
 
-### [#14079](https://github.com/paritytech/substrate/pull/14079) Contracts Add deposit for dependencies
+### [#14079](https://github.com/paritytech/substrate/pull/14079) Contracts: Add deposit for dependencies
 
 **Summary**
 
@@ -102,7 +105,7 @@ This PR refactors the implementation of the `ElectionDataProvider` bounds and im
 
 **Summary**
 
-A new implementation called `CountedStorageNMap` is added for `StorageNMap`, similar to `CountedStorageMap` for `StorageMap`.
+A new implementation called `CountedStorageNMap` is added for `StorageNMap`, similar to what `CountedStorageMap` is to `StorageMap`.
 
 ---
 
@@ -114,7 +117,7 @@ Here are note-worthy **Node SDK** PRs in Substrate repo merged between 2023-07-2
 
 **Summary**
 
-The `try-runtime` subcommand has been migrated to a standalone CLI. Tests have been removed to reduce load on the CI and have been migrated to the new repository. A TODO task is to remove a specific branch from the CI command.
+The `try-runtime` subcommand has been migrated to a standalone CLI. Tests have been removed to reduce load on the CI and have been migrated to the new repository.
 
 ---
 
@@ -130,7 +133,7 @@ This pull request removes the `Transaction` associated type from `sp_state_machi
 
 **Summary**
 
-This PR introduces a new kind of VRF called bandersnatch-vrfs, which can operate as a classical VRF or as a ring VRF. The code has been partially extracted from the Sassafras PR and is still an experimental feature. There are open points regarding dependencies on bandersnatch-vrfs, fflonk, and ring-proof. This PR is a step towards another PR in the substrate repository and supersedes two other PRs in the paritytech/substrate repository. It also has companion PRs in the polkadot and cumulus repositories.
+This PR introduces a new kind of VRF called _bandersnatch-vrfs_, which can operate as a classical VRF or as a ring VRF. The code has been partially extracted from the Sassafras PR and is still an experimental feature. There are open points regarding dependencies on bandersnatch-vrfs, fflonk, and ring-proof.
 
 ---
 
@@ -138,4 +141,4 @@ This PR introduces a new kind of VRF called bandersnatch-vrfs, which can operate
 
 **Summary**
 
-The code changes eliminate `Peerset` and instead give handles to `PeerStore` and `ProtocolController` to the components that need them. This resolves an issue with peer counting in `Protocol` and clarifies that `self.peers` only contains peers on the default protocol. The changes are considered noteworthy and are also implemented in the Polkadot and Cumulus companions.
+The code changes eliminate `Peerset` and instead give handles to `PeerStore` and `ProtocolController` to the components that need them. This resolves an issue with peer counting in `Protocol` and clarifies that `self.peers` only contains peers on the default protocol.
